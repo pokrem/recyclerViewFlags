@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+>
+   <ImageView
+       android:id="@+id/imgBayrak"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_margin="5dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:id="@+id/tvUlkeAdi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Textview"
+                android:textSize="24sp"
+                android:textColor="#222323"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:id="@+id/tvUlkeBaskent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Textview"
+                android:textSize="20sp"
+                android:textColor="#4d8cec"
+                />
+
+</LinearLayout>
+    </LinearLayout>
+</LinearLayout>
